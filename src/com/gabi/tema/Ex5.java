@@ -8,16 +8,16 @@ public class Ex5 {
 
         int corecte[]=lot.numereLoterie();
 
-        int count=0;
+        int contor=0;
         for(int i=0;i<6;i++){
             for(int j=0;j<6;j++){
                 if(ghicite[i]==corecte[j]){
-                    count++;
+                    contor++;
                     break;
                 }
             }
         }
-        if(count==6){
+        if(contor==6){
             System.out.println("Ai castigat!");
         }
         else{
